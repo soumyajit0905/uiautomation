@@ -2,13 +2,13 @@ package sonartestpackage;
 
 import org.testng.annotations.Test;
 
-import sonartestcoverage.Sonarsourcefile;
+import sourcefilestoanalyze.SonarSourceFile;
 
 public class Sonartestscript {
 	
 	@Test
 	public void test() {
-		Sonarsourcefile obj = new Sonarsourcefile();
+		SonarSourceFile obj = new SonarSourceFile();
 		obj.division();
 	}
 
